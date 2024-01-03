@@ -26,3 +26,19 @@ nav > ul
     color: #666;
     font-weight: bold;
 }
+@media screen and (max-width: 425px) 
+{
+    nav
+    {
+        width: 30px;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        margin: 0;
+        z-index: 1;
+    }
+    nav > ul
+    {
+        display: none;
+    }
+}
