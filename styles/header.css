@@ -1,0 +1,28 @@
+header
+{
+    background-color: transparent;
+}
+nav
+{
+    width: 500px;
+    margin: 75px auto;
+    padding: 10px;
+    height: 30px;
+    background-color: white;
+    line-height: 1.8;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px -8px #888;
+}
+nav > ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-links > li > a
+{
+    padding: 10px;
+    color: #666;
+    font-weight: bold;
+}
